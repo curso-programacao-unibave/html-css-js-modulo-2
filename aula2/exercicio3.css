@@ -1,0 +1,26 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ff9900;
+}
+
+.container p:nth-child(1) {
+  color: rgba(0, 0, 255, 0.7);
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  height: 40px;
+}
+
+.container p:nth-child(2) {
+  color: rgb(255, 255, 0);
+  font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 2.5rem;
+}
+
+.container p:nth-child(3) {
+  color: purple;
+  font-size: 120%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 80%;
+}

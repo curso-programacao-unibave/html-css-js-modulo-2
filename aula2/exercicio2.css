@@ -1,0 +1,17 @@
+:root {
+  --cor-principal: #ff9900;
+}
+
+.box {
+  background-color: var(--cor-principal);
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid black;
+}
+
+.box p {
+  font-family: Arial, Helvetica, sans-serif;
+}
