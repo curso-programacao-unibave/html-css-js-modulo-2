@@ -1,0 +1,18 @@
+body h1 {
+  text-align: center;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.box {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.box h2 {
+  text-align: center;
+}

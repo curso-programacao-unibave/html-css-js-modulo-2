@@ -1,0 +1,13 @@
+#form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#botao {
+  position: absolute;
+  right: 0;
+  bottom: -32px;
+}
