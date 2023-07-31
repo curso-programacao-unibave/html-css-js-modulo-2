@@ -1,0 +1,39 @@
+<!-- <aside>
+8️⃣ Exercício de manipulação de formulário:
+
+- Crie um documento HTML com um formulário contendo campos de entrada.
+- Usando JavaScript, selecione o formulário e adicione um evento de envio que exiba um alerta com os valores dos campos de entrada quando o formulário for enviado.
+</aside> -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+    <input type="text" name="nome">
+    <input type="text" name="idade">
+    <input type="text" name="peso">
+    <input type="text" name="altura">
+    <input type="submit" value="Enviar">
+  </form>
+  <script>
+    const form = document.querySelector('form');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const nome = document.querySelector('input[name=nome]').value;
+      const idade = document.querySelector('input[name=idade]').value;
+      const peso = document.querySelector('input[name=peso]').value;
+      const altura = document.querySelector('input[name=altura]').value;
+      alert(`Nome: ${nome}\nIdade: ${idade}\nPeso: ${peso}\nAltura: ${altura}`);
+      console.log(nome, idade, peso, altura);
+    });
+  </script>
+</body>
+
+</html>

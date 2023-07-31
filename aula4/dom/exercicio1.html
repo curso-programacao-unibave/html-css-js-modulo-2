@@ -1,0 +1,33 @@
+<!-- <aside>
+1️⃣ Exercício de seleção por classe e modificação de conteúdo:
+
+- Crie um documento HTML com três parágrafos.
+- Atribua a classe "destaque" a um dos parágrafos.
+- Usando JavaScript, selecione o parágrafo com a classe "destaque" e modifique seu conteúdo para "Este parágrafo está em destaque!".
+</aside> -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 1</title>
+</head>
+
+<body>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veritatis ratione saepe vitae officia dolorum nobis
+    laborum soluta explicabo animi. Harum deleniti maiores id doloribus non tempora veritatis, voluptates dolore!</p>
+  <p class="destaque">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta at ea iusto eveniet alias adipisci,
+    neque libero
+    quod sapiente, dolorem similique optio, eaque hic vero porro magnam soluta dolores eius.</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos perspiciatis iste, quo distinctio accusantium
+    asperiores reprehenderit nisi architecto est delectus assumenda hic quam repellat error officia praesentium commodi
+    vero tenetur.</p>
+  <script>
+    const destaque = document.querySelector('.destaque')
+    destaque.innerHTML = 'Este parágrafo está em destaque!'
+  </script>
+</body>
+
+</html>

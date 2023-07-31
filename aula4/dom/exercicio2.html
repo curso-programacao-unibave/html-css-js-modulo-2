@@ -1,0 +1,26 @@
+<!-- <aside>
+2️⃣ Exercício de seleção e alteração de atributo:
+
+- Crie um documento HTML com uma imagem.
+- Atribua um ID à imagem.
+- Usando JavaScript, selecione a imagem por ID e altere o atributo "src" para uma nova imagem de sua escolha.
+</aside> -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <img id="imagem" src="srcantigo">
+  <script>
+    const imagem = document.getElementById('imagem');
+    imagem.src = 'novosrc';
+  </script>
+</body>
+
+</html>

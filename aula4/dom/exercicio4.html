@@ -1,0 +1,28 @@
+<!-- <aside>
+4️⃣ Exercício de manipulação de estilo CSS:
+
+- Crie um documento HTML com um botão.
+- Atribua uma classe ao botão.
+- Usando JavaScript, selecione o botão por classe e adicione um estilo de fundo vermelho quando o botão for clicado.
+</aside> -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <button class="botao">Clique</button>
+  <script>
+    const botao = document.querySelector('.botao');
+    botao.addEventListener('click', () => {
+      botao.style.backgroundColor = 'red';
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!-- <aside>
+5️⃣ Exercício de evento e manipulação de classe:
+
+- Crie um documento HTML com uma lista de itens **`<li>`**.
+- Atribua uma classe a todos os itens da lista.
+- Usando JavaScript, adicione um evento de clique a cada item para alternar a classe "selecionado" quando clicado.
+</aside> -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .item {
+      display: inline-block;
+      cursor: pointer;
+      padding: 1rem;
+      border: 1px solid;
+    }
+
+    .selecionado {
+      color: brown;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li class="item">Jorge</li>
+    <li class="item">Carlos</li>
+    <li class="item">Zequinha</li>
+  </ul>
+  <script>
+    const itens = document.querySelectorAll('.item')
+    itens.forEach(item => {
+      item.addEventListener('click', () => {
+        item.classList.toggle('selecionado')
+      })
+    })
+  </script>
+</body>
+
+</html>
